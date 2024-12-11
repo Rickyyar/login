@@ -15,5 +15,5 @@ echo "$(date '+%H:%M:%S')- entering VENV"
 source login_venv/bin/activate
 pip install -r requirements.txt
 echo "$(date '+%H:%M:%S') - starting python application"
-python3 flask_app.py
+python3 app.py
 echo "$(date '+%H:%M:%S') - application stopped"
